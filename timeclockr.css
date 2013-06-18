@@ -1,0 +1,37 @@
+body {
+  background: #eee;
+  margin: 0px;
+  font: 18px/20px sans-serif;
+}
+
+table {
+  background: #888;
+  color: #eee;
+  width: 100%;
+}
+
+th {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 10px;
+}
+
+td {
+  width: 32%;
+  padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+tr.new_day td {
+  border-bottom: 2px solid #eee;
+}
+
+td:nth-child(1) { background: rgba(0, 0, 200, 0.75); }
+td:nth-child(2) { background: rgba(0, 125, 0, 0.75); }
+td:nth-child(3) { background: rgba(200, 0, 0, 0.75); }
+
+#clock { margin: 5px 0px; }
+#clock .stop { display: none; }
+#clock.started .stop { display: normal; }
