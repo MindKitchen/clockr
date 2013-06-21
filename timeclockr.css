@@ -32,6 +32,6 @@ td:nth-child(1) { background: rgba(0, 0, 200, 0.75); }
 td:nth-child(2) { background: rgba(0, 125, 0, 0.75); }
 td:nth-child(3) { background: rgba(200, 0, 0, 0.75); }
 
-#clock { margin: 5px 0px; }
+#clock { background: #0a0; margin: 5px 0px; }
 #clock .stop { display: none; }
 #clock.started .stop { display: normal; }
