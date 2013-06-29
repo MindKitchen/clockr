@@ -1,6 +1,4 @@
-"use strict";
-
-var Clocks = new Meteor.Collection("clocks");
+Clocks = new Meteor.Collection("clocks");
 
 if (Meteor.isClient) {
   Window.Clocks = Clocks;
